@@ -107,7 +107,7 @@ We assign the extended generator to `module.exports` to make it available to the
 
 Some special generator methods can only be called inside the `constructor` function. These special methods usually set up important state controls that cannot work later on.
 
-This mean you may want to overwrite the default constructor from time to time. You can do it like this:
+This means you may want to overwrite the default constructor from time to time. You can do it like this:
 
 ```js
 module.exports = generators.Base.extend({
